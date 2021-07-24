@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign up</title>
-</head>
+    <title>page 2</title>
+
+    <style>
+        h1 {
+            padding: 1%;
+        font-size: 25px;
+        background-color: rgb(245, 141, 6);
+        text-align: center;
+        margin: 0px;
+        }
+        form{
+           background-color: rgb(5, 35, 77);
+            color: whitesmoke;
+            
+        }
+        .dob{
+            float: left;
+        }
+        .in{
+            padding: 10px;
+            margin: 5px;
+           margin-left: 40px;
+        }
+         
+        .foot{
+            padding: 1%;
+        font-size: 25px;
+        background-color: rgb(245, 141, 6);
+        text-align: center;
+        margin: 0px;
+        }
+        .sub{
+            background-color: green;
+
+        }
+        .can{
+            background-color: red;
+        }
+ 
+    </style>
 <body>
-    <p>first name</p>
+    <h1>SIGN UP</h1>
+    <form>
+        First Name <input type="text" class="in" name="fname" placeholder="Enter First Name"><br>
+        Last Name  <input type="text"  class="in"  name="fname" placeholder="Enter First Name"><br>
+        Enter id   <input type="text" class="in"  class="Screen"name="fname" placeholder="Enter First Name"><br>
+    <div class="Container" >
+          Date of birth<select class="in"    name="Month">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+        
+            <select class="in" name="Date">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select>
+            <select   name="year" class="in">
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+            </select>
+        </div><br>
+  
+        Gender:<input type="radio" class="red" name="gender" > Male
+        <input type="radio"  name="gender"> Female<br>
+        Country:<select class="in"  name="Country">
+            <option value="usa">USA</option>
+            <option value="india">INDIA</option>
+            <option value="africa">AFRICA</option>
+            <option value="china">CHINA</option>
+
+      </select><br>
+      E-mail:<input type="text" name="E-mail"  class="in" placeholder="Enter E-Mail"><br>
+      Phone:      <input type="text" name="Phone" class="in" placeholder="Enter Phone"><br>
+      Password:<input type="password" name="Password"   class="in" placeholder="Enter Password"><br>
+      confirm password:<input type="password" name="confirm password" class="in" placeholder="Confirm Password"><br>
+      <input type="checkbox" class="in">I accept the terms and conditions<br>
+      <div class="foot">
+        <button type="submit"  class="sub" >Submit</button><button type="reset" class="can" >Cancel</button> 
+    </div>
+    </form>
+
 </body>
 </html>
