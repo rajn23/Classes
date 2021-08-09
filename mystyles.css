@@ -1,0 +1,56 @@
+
+body{
+  background-color: rgb(54, 37, 37);
+}
+.nav_menu1{
+  overflow: hidden;
+  background-color: rgb(86, 178, 201);
+}
+.nav_menu1{
+  padding: 8px 8px;
+}
+.nav_menu1 button {
+  float:right;
+  display: block;
+  color: rgb(19, 18, 18);
+  text-align: center;
+  margin: 4px 4px 4px 4px;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+.nav_menu1 button:hover {
+  background-color: rgb(117, 91, 42);
+  color: green;
+}
+.header{
+   color:rgb(230, 16, 16);
+   background-color: rgb(174, 170, 179);
+   padding: 0px;
+   margin: 20px 20px 20px 20px;
+   text-align: center;
+
+ }
+ .columna {
+   background-color: rgb(120, 145, 192);
+  float: left;
+  width: 34%;
+  height: 400px;
+  text-align:justify;
+}
+.columnb {
+  background-color: rgb(115, 218, 200);
+ float: right;
+ width: 65%;
+ height: 400px;
+ text-align:justify;
+}
+h2 {
+  color:rgb(10, 10, 10);
+  text-align:center;
+}
+}
+@media screen and (max-width:400px) {
+  .columna, .columnb{
+      width: 50%;
+  }
+}
